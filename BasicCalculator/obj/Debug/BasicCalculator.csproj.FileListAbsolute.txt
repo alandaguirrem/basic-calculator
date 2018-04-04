@@ -1,0 +1,7 @@
+D:\Storage\LEARNING\VIDEO\1 - Important\C#\C# Essential Training\Exercise Files\Exercise Files\05_Flow\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.csprojResolveAssemblyReference.cache
+D:\Storage\LEARNING\VIDEO\1 - Important\C#\C# Essential Training\Exercise Files\Exercise Files\05_Flow\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.csproj.CoreCompileInputs.cache
+D:\Storage\LEARNING\VIDEO\1 - Important\C#\C# Essential Training\Exercise Files\Exercise Files\05_Flow\BasicCalculator\BasicCalculator\bin\Debug\BasicCalculator.exe.config
+D:\Storage\LEARNING\VIDEO\1 - Important\C#\C# Essential Training\Exercise Files\Exercise Files\05_Flow\BasicCalculator\BasicCalculator\bin\Debug\BasicCalculator.exe
+D:\Storage\LEARNING\VIDEO\1 - Important\C#\C# Essential Training\Exercise Files\Exercise Files\05_Flow\BasicCalculator\BasicCalculator\bin\Debug\BasicCalculator.pdb
+D:\Storage\LEARNING\VIDEO\1 - Important\C#\C# Essential Training\Exercise Files\Exercise Files\05_Flow\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.exe
+D:\Storage\LEARNING\VIDEO\1 - Important\C#\C# Essential Training\Exercise Files\Exercise Files\05_Flow\BasicCalculator\BasicCalculator\obj\Debug\BasicCalculator.pdb
