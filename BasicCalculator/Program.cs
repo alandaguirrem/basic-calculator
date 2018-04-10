@@ -10,13 +10,15 @@ namespace BasicCalculator
     {
         static void Main(string[] args)
         {
-            //Beginning: Code related to the addition of Values, this part uses the GetValue method that is explained below
+            //Beginning: Code related to the addition of Values, 
+            //this part uses the GetValue method that is explained below
             double value1 = GetValue("Enter value1: "); //Using GetValue method
             double value2 = GetValue("Enter value2: "); //Using GetValue method
             double result = 0;
             //-------------------------------------------------------------------------------------------------------------
-            //Beginning: Code related to the operations to be done, this part uses a switch that invokes the arithmetic methods explained below
-            Console.WriteLine("Enter operation (A)Add, (S)Substract, (M)Multiply, (D)Division:");
+            //Beginning: Code related to the operations to be done, 
+            //this part uses a switch that invokes the arithmetic methods explained below
+            Console.WriteLine("Enter operation (A)Add, (S)Substract, (M)Multiply, (D)Division, (R)Remainder:");
             string operation = Console.ReadLine();
             switch (operation.ToUpper())
             {
@@ -36,6 +38,10 @@ namespace BasicCalculator
                     result = Divide(value1, value2); //Using divide method
                     break;
 
+                case "R":
+                    result = Remainder(value1, value2); //Using remainder method
+                    break;
+
                 default:
                     break;
             }
@@ -43,7 +49,8 @@ namespace BasicCalculator
             Console.Read();
             //-------------------------------------------------------------------------------------------------------------
         }
-        //Beginning: Code related to the GetValue method, this one is used to verify if the value is a number, if not it will continue asking the value
+        //Beginning: Code related to the GetValue method, this one is used to verify if the value is a number, 
+        //if not it will continue asking the value
         private static double GetValue(string label)
         {
             double value;
@@ -86,6 +93,10 @@ namespace BasicCalculator
             {
                 return value1 / value2;
             }
+        }
+        private static double Remainder(double value1, double value2)  //Remainder method
+        {
+            return value1 % value2;
         }
         //-------------------------------------------------------------------------------------------------------------
     }
